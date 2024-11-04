@@ -1,0 +1,53 @@
+h1{
+    text-align: center;
+}
+
+form{
+    width: 250px;
+    margin: auto;
+    border: solid 1px black;
+    padding: 8px ;
+    border-radius: 10px;
+    box-shadow: 3px 6px 15px 4px grey;
+}
+
+div{
+    display: flex;
+    flex-direction: column;
+}
+imput{
+    width: 200px;
+    padding: 4px 6px;
+
+}
+
+imput[type="checkbox"]{
+    width: 16px;
+    margin: 10px;
+}
+
+input[type="submit"]{
+    margin-top: 8px;
+    width: 100%;
+    background-color: rgb(124, 99, 178);
+    color: white;
+    border:solid 1px black;
+    border-radius: 6px;
+    padding: 6px 0px ;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover{
+    background-color: black;
+    color:cornflowerblue;
+}
+
+label{
+    padding: 8px 0px;
+}
+
+.check{
+    margin-top: 8px;
+    display: flex ;
+    flex-direction: row;
+}

@@ -1,0 +1,47 @@
+.body{
+    background:linear-gradiant(lightsalmon,orange);
+}
+.container{
+    background-color:peachpuff;
+    width: 900px;
+    height:auto;
+    margin: 20px auto;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    text-align: center;
+    
+}
+
+.marge{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.img{
+    width: 100%;
+    padding-bottom: 20px;
+    border-radius: 40px;
+}
+
+.important{
+    background-color: beige ;
+    color:darkred;
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+.sous-titres{
+    text-align: left;
+    margin-left: 20px;
+}
+
+.enfant{
+    margin-left: 50px;
+    margin-right: 20px;
+}
+
+.bloc{
+    background-color: white;
+}

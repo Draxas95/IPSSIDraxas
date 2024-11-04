@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!-- crtl + / = commentaire -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- les class sont réutilisables mais pas les id -->
+    <h1 class="first-title"> Ceci est un gros titre</h1>
+
+    <h2 id="second-title">Ceci est un gors sous titre</h2>
+    <h3 class="first-title"> Ceci est un titre encore plus petit</h3>
+
+    <!-- Emmet permet de gagner du temps sur le stitre comme h1+2*h2 -->
+
+    <!-- lorem*4 (lorem ipsum) & paragraphe -->
+    <p>
+        Lorem ipsum <my-span>dolor</my-span> sit amet consectetur adipisicing elit. Atque ipsum placeat, et sapiente eveniet repellat eligendi corrupti aspernatur cum amet officia maxime delectus explicabo, velit corporis qui voluptatem consequuntur distinctio.
+        Molestias nisi dolor reiciendis. Ea impedit similique quod recusandae fuga esse, vero magnam consequatur dolore sint? Perspiciatis atque minima praesentium. Quo saepe doloremque quisquam dolorem excepturi vitae labore eos laborum!
+        Consequuntur cum necessitatibus earum velit doloribus dolores facilis, dolorum repellendus reprehenderit, quo fuga accusamus? Quidem, autem odit laboriosam, ullam doloremque voluptatibus debitis sequi illum culpa aspernatur consectetur, at natus id.
+        Aliquam quo repudiandae consectetur accusamus repellendus? Unde maiores molestiae quaerat et aperiam ullam optio consequatur, animi odit perferendis quos laborum sed sunt nisi magni ducimus? Quasi quam magni deserunt possimus.
+    </p>
+        <!-- a pour les lien hipertext, href la page de destination et target pour ouvrir la page dans un nouvelle onglet -->
+        <!-- ./ permet de chercher un fichier dans le dossier dans lequel il se situe -->
+    <a href="./page.html" target="_blank">Ceci est un lien</a>
+    <br>
+    <br>
+    <br>
+    <img src="images.jpg" alt="image cool">
+    <!-- alt est une notation si l'image ne marche pas -->
+    <br>
+
+    <!-- ol est une liste ordonné et ul une désordonné comprennant pour les deux des balises li -->
+    <ol>
+        <li>A</li>
+        <li>B</li>
+        <li>C</li>
+    </ol>
+    <br>
+    <ul>
+        <li>D</li>
+        <li>E</li>
+        <li>F</li>
+    </ul>
+    <br>
+
+    <!-- Ici votre formulaire composé de label et de boutton d'envoie (input ou button avec pour type "submit") -->
+    <form>
+        <label for="username">
+            Username
+        </label>
+        <input name="username" type="text" placeholder="ici votre nom...">
+        <input name="password" type="password" placeholder="ici votre mdp">
+        <input type="submit" value="Soumettre">
+
+    </form>
+
+    <br>
+
+    <!-- Dans ce tableau, th sont les titres (head), td les valeurs (data) -->
+    <table>
+        <tr>
+            <th>Nom</th>
+            <th>Age</th>
+            <th>Ville</th>
+        </tr>
+        
+        <tr>
+            <td>Romain</td>
+            <td>35</td>
+            <td>Nice</td>
+        </tr>
+
+        <tr>
+            <td>Sophie</td>
+            <td>52</td>
+            <td>Paris</td>
+        </tr>
+    </table>
+    
+    <br>
+
+    <!-- La balise div est un container sans limites (sauf espaces) pour d'autres éléments, mais à ne pas abuser -->
+    <div>
+        <h3>Super rien du tout</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic possimus quo error quae provident, aperiam corrupti ad. Soluta fugit magnam id ex sit officia nemo delectus ullam, dicta nihil incidunt.
+        </p>
+        </div>
+
+    <br>
+
+    <!--La balise section sert à fragmenter la page web  -->
+    <section>
+        <h3>
+            <table>
+                <tr>
+                    <th>Nom</th>
+                    <th>Age</th>
+                    <th>Ville</th>
+                </tr>
+                
+                <tr>
+                    <td>Amaury</td>
+                    <td>20</td>
+                    <td>Lilles</td>
+                </tr>
+        
+                <tr>
+                    <td>Lucas</td>
+                    <td>19</td>
+                    <td>Lyon</td>
+                </tr>
+            </table>
+        </h3>
+    </section>
+
+</body>
+</html>

@@ -1,0 +1,121 @@
+@font-face {
+    font-family: 'Billabong';
+    src: url('Assets/FontsFree-Net-Billabong.ttf') format('truetype');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    background-color: #fafafa;
+}
+
+.login-container {
+    background: #fff;
+    border: 1px solid #dbdbdb;
+    padding: 40px 50px;
+    width: 350px;
+    text-align: center;
+}
+
+.logo {
+    font-family: 'Billabong', cursive;
+    font-size: 48px;
+    color: #262626;
+    margin-bottom: 20px;
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    font-size: 14px;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    background: #fafafa;
+}
+
+.login-form button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 14px;
+    color: #fff;
+    background-color: #0095f6;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.login-form button:hover {
+    background-color: #007bb5;
+}
+
+.divider {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    font-size: 13px;
+    color: #8e8e8e;
+}
+
+.divider::before,
+.divider::after {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: #dbdbdb;
+    margin: 0 10px;
+}
+
+
+.fb-login {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    color: #385185;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.fb-login:hover {
+    text-decoration: underline;
+}
+
+.forgot-password {
+    color: #00376b;
+    font-size: 12px;
+    text-decoration: none;
+    display: block;
+    margin-top: 10px;
+}
+
+.forgot-password:hover {
+    text-decoration: underline;
+}
+
+/* Inscription */
+.signup-container {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.signup-container a {
+    color: #0095f6;
+    text-decoration: none;
+}
+
+.signup-container a:hover {
+    text-decoration: underline;
+}
+

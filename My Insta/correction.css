@@ -1,0 +1,135 @@
+
+@font-face {
+    font-family: Instagram;
+    src: url("./assets/FontsFree-Net-Billabong.ttf");
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+:root {
+    --grey-border: #dbdbdb;
+    --spacer-grey: #a8a8a8;
+    --bg-white: #fafafa;
+    --blue-light: #bae0fb;
+    --blue-medium: rgb(0, 149, 246);
+    --blue-signup: #1997f3;
+    --fb-blue: #395284;
+}
+
+.container {
+    width: 800px;
+    margin: 100px auto;
+    display: flex;
+}
+
+.right {
+    width: 350px;
+    text-align: center;
+}
+
+.left {
+    width: 450px;
+    height: 600px;
+}
+
+h1 {
+    font-family: Instagram;
+    font-size: 64px;
+    font-weight: normal;
+}
+
+input {
+    width: 246px;
+    margin-bottom: 6px;
+    background-color: var(--bg-white);
+    border: solid var(--grey-border) 1px;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    box-sizing: inherit;
+    background-color: var(--blue-signup);
+    border: none;
+    color: white;
+    text-transform: capitalize;
+    width: 250px;
+}
+
+input, input[type="submit"] {
+    height: 15px;
+    padding: 10px;
+}
+
+.spacer {
+    position: relative;
+}
+
+.spacer::before, .spacer::after {
+    content: "";
+    height: 2px;
+    background-color: var(--spacer-grey);
+    width: 60px;
+    position: absolute;
+    width: 40%;
+    margin-top: 6px;
+}
+
+.spacer::before {
+    left: 0;
+}
+
+.spacer::after {
+    right: 0;
+}
+
+.main > a {
+    display: block;
+    color: var(--fb-blue);
+    text-decoration: none;
+}
+
+.fb-link {
+    font-weight: bold;
+    margin-bottom: 16px;
+    position: relative;
+}
+
+.fb-link::before {
+    content: "";
+    background-image: url("./assets/fb-icon.png");
+    width: 16px ;
+    height: 16px;
+    position: absolute;
+    left: 35px;
+    background-size: cover;
+}
+
+.main, .bottom {
+    border: solid 1px var(--grey-border);
+    padding: 0 36px 32px 36px;
+}
+
+.bottom {
+    margin-top: 24px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+p > a {
+    font-weight: bold;
+    color : var(--fb-blue);
+    text-decoration: none;
+}
+
+.badges {
+    display: flex;
+    justify-content: center;
+    margin: -24px;
+}
+
+.badges img {
+    width: 134px;
+    margin-right:16px
+}

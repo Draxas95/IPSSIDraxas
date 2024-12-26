@@ -1,0 +1,69 @@
+/* Fichier : styles.css */
+
+
+
+
+:root {
+    --pale-blue: #ebf3fa;
+    --marine-blue : #234179; 
+    --dark-red: #af443f;  
+    --dark-blue: #253a62; 
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    justify-content: space-between;
+    align-items: center;
+    display: flexbox;
+    width: 800px;
+    margin: 10px auto;
+    display: flex;
+}
+
+.right {
+    width: 10px;
+    height: 10px;
+
+}
+
+.left {
+    width: 450px;
+    height: 600px;
+    text-align: left;
+}
+
+h2, p{
+    color: var(--dark-blue);
+}
+
+.get-started button {
+    justify-self: center;
+    width: 35%;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 14px;
+    color: #fff;
+    background: linear-gradient(to bottom, 
+    var(--marine-blue) 0%, 
+    var(--marine-blue) 10%, 
+    var(--marine-blue) 30%, 
+    var(--dark-red) 70%, 
+    var(--dark-red) 100%);
+  transition: background 0.5s ease;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer; 
+}
+
+img{
+    width: auto;
+    height: 450px;
+}
+
+div{
+    justify-content: space-around;
+    color: var(--dark-blue);
+}
